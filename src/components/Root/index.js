@@ -6,7 +6,9 @@ class Root extends React.Component {
   render() {
     return (
       <div>
-        hoge
+        three.jsで作ったもののギャラリーです。サイドバーのリンクから作品を見れます。
+        <br/>
+        ＊スマホ非対応
       </div>
     )
   }

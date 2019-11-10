@@ -7,6 +7,7 @@ import { ConnectedRouter } from 'connected-react-router'
 import configureStore, { history } from 'store/configureStore'
 import Layout from 'components/shared/Layout'
 import Root from 'components/Root'
+import Sample from 'components/Sample'
 import { media } from 'utils/media'
 
 const store = configureStore()
@@ -19,6 +20,7 @@ class App extends Component {
           <Layout>
             <Switch>
               <Route exact path="/" component={Root}/>
+              <Route exact path="/sample" component={Sample}/>
               <Route component={Root}/>
             </Switch>
           </Layout>
