@@ -1,5 +1,4 @@
 import React from 'react'
-import { render } from 'react-dom'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
@@ -33,7 +32,8 @@ class Sidebar extends React.Component {
 
   render() {
     const items = [
-      {to: '/sample', text: 'sample'},
+      {to: '/hello-three', text: 'Hello Three'},
+      {to: '/references', text: 'References'},
     ].map((item, i) => {
       return (
         <NavigationItem key={i}>
