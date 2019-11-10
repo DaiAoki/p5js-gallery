@@ -1,0 +1,8 @@
+html {
+  font-size: 62.5% !important;
+}
+body {
+  font-size: 1.6rem !important;
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  text-rendering: optimizeSpeed;
+}
