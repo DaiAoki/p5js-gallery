@@ -35,6 +35,7 @@ class Sidebar extends React.Component {
     const items = [
       {to: '/hello-three', text: 'Hello Three'},
       {to: '/sample-one', text: 'Sample1'},
+      {to: '/sample-two', text: 'Sample2'},
       {to: '/references', text: 'References'},
     ].map((item, i) => {
       return (
