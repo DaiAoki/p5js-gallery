@@ -6,6 +6,7 @@
     "babel-polyfill": "^6.26.0",
     "connected-react-router": "^6.5.2",
     "core-js": "^3.4.0",
+    "dat.gui": "^0.7.6",
     "fsevents": "^2.1.2",
     "history": "^4.10.1",
     "react": "^16.11.0",
@@ -15,6 +16,7 @@
     "react-scripts": "3.2.0",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
+    "stats.js": "^0.17.0",
     "styled-components": "^4.4.1",
     "three": "^0.110.0"
   },

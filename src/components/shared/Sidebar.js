@@ -5,6 +5,7 @@ import styled from 'styled-components'
 const Container = styled.aside`
   height: 100%;
   width: 30%;
+  min-width: 30%;
   flex-basis: 30%;
   padding: 24px;
   border-right: solid 8px #ccc;
@@ -33,6 +34,7 @@ class Sidebar extends React.Component {
   render() {
     const items = [
       {to: '/hello-three', text: 'Hello Three'},
+      {to: '/sample-one', text: 'Sample1'},
       {to: '/references', text: 'References'},
     ].map((item, i) => {
       return (

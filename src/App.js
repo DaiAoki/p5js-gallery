@@ -8,6 +8,7 @@ import configureStore, { history } from 'store/configureStore'
 import Layout from 'components/shared/Layout'
 import Root from 'components/Root'
 import HelloThree from 'components/HelloThree'
+import SampleOne from 'components/SampleOne'
 import References from 'components/References'
 
 const store = configureStore()
@@ -21,6 +22,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Root}/>
               <Route exact path="/hello-three" component={HelloThree}/>
+              <Route exact path="/sample-one" component={SampleOne}/>
               <Route exact path="/references" component={References}/>
               <Route component={Root}/>
             </Switch>
